@@ -1,4 +1,4 @@
-package com.noob.apps.mahmoud.adapters
+package com.noob.apps.mahmoudsaad.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,8 +6,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.noob.apps.mvvmcountries.R
 import com.noob.apps.mvvmcountries.databinding.HomeListItemBinding
-import com.noob.apps.mahmoud.interfaces.ImageClickCallback
-import com.noob.apps.mahmoud.models.HomeResponse
+import com.noob.apps.mahmoudsaad.interfaces.ImageClickCallback
+import com.noob.apps.mahmoudsaad.models.HomeResponse
 
 class HomeListAdapter(var mList: List<HomeResponse.Data>? = listOf(), private val imageCallback: ImageClickCallback) :
     RecyclerView.Adapter<HomeListAdapter.ViewHolder>() {

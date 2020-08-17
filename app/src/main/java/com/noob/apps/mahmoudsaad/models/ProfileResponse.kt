@@ -1,4 +1,4 @@
-package com.noob.apps.mahmoud.models
+package com.noob.apps.mahmoudsaad.models
 
 data class ProfileResponse(
     val `data`: Data,

@@ -1,4 +1,4 @@
-package com.noob.apps.mahmoud.ui
+package com.noob.apps.mahmoudsaad.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,10 +9,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.noob.apps.mvvmcountries.R
-import com.noob.apps.mahmoud.adapters.HomeListAdapter
+import com.noob.apps.mahmoudsaad.adapters.HomeListAdapter
 import com.noob.apps.mvvmcountries.databinding.ActivityProfileBinding
-import com.noob.apps.mahmoud.interfaces.ImageClickCallback
-import com.noob.apps.mahmoud.viewmodels.ProfileViewModel
+import com.noob.apps.mahmoudsaad.interfaces.ImageClickCallback
+import com.noob.apps.mahmoudsaad.viewmodels.ProfileViewModel
 
 class ProfileActivity : AppCompatActivity() ,
     ImageClickCallback {

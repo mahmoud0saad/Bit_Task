@@ -1,8 +1,8 @@
-package com.noob.apps.mahmoud.network
+package com.noob.apps.mahmoudsaad.network
 
-import com.noob.apps.mahmoud.models.Country
-import com.noob.apps.mahmoud.models.HomeResponse
-import com.noob.apps.mahmoud.models.ProfileResponse
+import com.noob.apps.mahmoudsaad.models.Country
+import com.noob.apps.mahmoudsaad.models.HomeResponse
+import com.noob.apps.mahmoudsaad.models.ProfileResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

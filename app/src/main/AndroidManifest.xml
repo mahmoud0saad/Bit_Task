@@ -14,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.noob.apps.mahmoud.ui.ImageActivity"
+        <activity android:name="com.noob.apps.mahmoudsaad.ui.ImageActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name="com.noob.apps.mahmoud.ui.ProfileActivity"
+            android:name="com.noob.apps.mahmoudsaad.ui.ProfileActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

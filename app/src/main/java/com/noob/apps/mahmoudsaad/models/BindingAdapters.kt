@@ -1,6 +1,5 @@
-package com.noob.apps.mahmoud.models
+package com.noob.apps.mahmoudsaad.models
 
-import android.app.Activity
 import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView

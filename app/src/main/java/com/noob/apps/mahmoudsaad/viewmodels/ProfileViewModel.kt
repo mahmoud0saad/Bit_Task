@@ -1,17 +1,13 @@
-package com.noob.apps.mahmoud.viewmodels
+package com.noob.apps.mahmoudsaad.viewmodels
 
 import android.content.Context
-import android.view.View
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.noob.apps.mahmoud.interfaces.NetworkResponseCallback
-import com.noob.apps.mahmoud.models.Country
-import com.noob.apps.mahmoud.models.HomeResponse
-import com.noob.apps.mahmoud.models.ProfileResponse
-import com.noob.apps.mahmoud.repositories.CountriesRepository
-import com.noob.apps.mahmoud.utils.NetworkHelper
-import java.util.*
+import com.noob.apps.mahmoudsaad.interfaces.NetworkResponseCallback
+import com.noob.apps.mahmoudsaad.models.HomeResponse
+import com.noob.apps.mahmoudsaad.models.ProfileResponse
+import com.noob.apps.mahmoudsaad.repositories.CountriesRepository
+import com.noob.apps.mahmoudsaad.utils.NetworkHelper
 
 class ProfileViewModel : ViewModel() {
     private var mList: MutableLiveData<List<HomeResponse.Data>> =

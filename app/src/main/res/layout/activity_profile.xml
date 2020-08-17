@@ -7,7 +7,7 @@
 
         <variable
             name="profile"
-            type="com.noob.apps.mahmoud.models.ProfileResponse" />
+            type="com.noob.apps.mahmoudsaad.models.ProfileResponse" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -16,7 +16,7 @@
         android:background="@color/alabaster"
         android:fitsSystemWindows="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="com.noob.apps.mahmoud.ui.ProfileActivity">
+        tools:context="com.noob.apps.mahmoudsaad.ui.ProfileActivity">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/app_bar"

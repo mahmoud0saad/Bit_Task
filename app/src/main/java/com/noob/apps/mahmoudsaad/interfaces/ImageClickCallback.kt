@@ -1,4 +1,4 @@
-package com.noob.apps.mahmoud.interfaces
+package com.noob.apps.mahmoudsaad.interfaces
 
 interface ImageClickCallback {
     fun onImageClick(image:String )

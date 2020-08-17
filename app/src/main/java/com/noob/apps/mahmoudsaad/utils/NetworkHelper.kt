@@ -1,4 +1,4 @@
-package com.noob.apps.mahmoud.utils
+package com.noob.apps.mahmoudsaad.utils
 
 import android.content.Context
 import android.net.ConnectivityManager
