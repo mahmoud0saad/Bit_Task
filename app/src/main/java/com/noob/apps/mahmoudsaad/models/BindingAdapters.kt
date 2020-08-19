@@ -11,6 +11,7 @@ object BindingAdapters {
     @JvmStatic
     fun loadImage(imageView: ImageView?, imageUrl: String?) {
         Log.i("mano", "loadImage: "+imageUrl)
+        if (imageUrl.isNullOrEmpty())return
         Picasso.get()
             .load(imageUrl)
             .placeholder(com.noob.apps.mvvmcountries.R.mipmap.ic_launcher)
